@@ -1,0 +1,29 @@
+{
+  "name": "json-cookie-cutter",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "JSON.parse/JSON.stringify to wrap substack's cookie-cutter",
+  "license": "MIT",
+  "repository": "ajoslin/json-cookie-cutter",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "json",
+    "cookie",
+    "cookie-cutter"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^7.0.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ]
+}
