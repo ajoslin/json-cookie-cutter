@@ -18,7 +18,6 @@ var JsonCookie = module.exports = function (doc) {
         value = JSON.stringify(value)
       } catch (_) {}
 
-      console.log('setting', key, value, opts)
       return cookie.set(key, value, opts)
     }
   }
