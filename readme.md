@@ -1,6 +1,6 @@
 # json-cookie-cutter [![Build Status](https://travis-ci.org/ajoslin/json-cookie-cutter.svg?branch=master)](https://travis-ci.org/ajoslin/json-cookie-cutter)
 
-> JSON.parse/JSON.stringify to wrap substack's cookie-cutter
+> Same API as [cookie-cutter](https://github.com/substack/cookie-cutter), plus JSON stringify/parse on set/get.
 
 
 ## Install
@@ -13,31 +13,15 @@ $ npm install --save json-cookie-cutter
 ## Usage
 
 ```js
-var jsonCookieCutter = require('json-cookie-cutter')
+var cookie = require('json-cookie-cutter')
 
-jsonCookieCutter('input')
-//=> output
+cookie.set('hello', {world: true})
+cookie.get('hello') // => {world: true})
 ```
 
 ## API
 
-#### `jsonCookieCutter(input, [options])` -> `output`
-
-##### input
-
-*Required*  
-Type: `string`
-
-Lorem ipsum.
-
-##### options
-
-###### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
+See [cookie-cutter](https://github.com/substack/cookie-cutter).
 
 
 ## License

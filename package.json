@@ -25,5 +25,8 @@
   "files": [
     "index.js",
     "test.js"
-  ]
+  ],
+  "dependencies": {
+    "cookie-cutter": "^0.2.0"
+  }
 }
