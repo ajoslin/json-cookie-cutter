@@ -1,7 +1,7 @@
 {
   "name": "json-cookie-cutter",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON.parse/JSON.stringify to wrap substack's cookie-cutter",
   "license": "MIT",
   "repository": "ajoslin/json-cookie-cutter",
